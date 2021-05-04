@@ -1,0 +1,38 @@
+.heading {
+  padding: 10px;
+  text-align: center;
+  font-size: 23px;
+  width: 100%;
+  margin: 0%;
+  box-shadow: 5px 8px 5px grey;
+}
+
+.note {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.copyright_footer {
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  line-height: 3;
+  text-align: center;
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+body {
+  background-image: radial-gradient(#fff3f3 25%, #b6a3ee 20%);
+  background-position: 0 0;
+  background-size: 100px 100px;
+  height: 100%;
+  width: 100%;
+}
