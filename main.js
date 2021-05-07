@@ -1,6 +1,5 @@
 function setup() {
     video = createCapture(VIDEO);
-    video.hide();
     video.size(550, 500);
     canvas = createCanvas(550, 550);
     canvas.position(560, 150);
@@ -19,5 +18,5 @@ function modelLoaded() {
 }
 
 function draw() {
-    background('#969a97');
+    background('#D3D3D3');
 }
